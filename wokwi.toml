@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = "build/Embarcatech_Interrupcoes.uf2"
+elf = "build/Embarcatech_Interrupcoes.elf"
