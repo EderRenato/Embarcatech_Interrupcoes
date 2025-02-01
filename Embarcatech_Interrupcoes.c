@@ -156,15 +156,6 @@ void npWrite() {
     }
 }
 
-void core1_entry() {
-    while (true) {
-        gpio_put(LED_PIN, true);  // Liga o LED
-        sleep_ms(200);
-        gpio_put(LED_PIN, false); // Desliga o LED
-        sleep_ms(200);
-    }
-}
-
 
 
 void display_numerico(int frame) {
