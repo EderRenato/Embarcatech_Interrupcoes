@@ -48,7 +48,7 @@ pico_enable_stdio_usb(Embarcatech_Interrupcoes 1)
 # Add the standard library to the build
 target_link_libraries(Embarcatech_Interrupcoes
         pico_stdlib
-        pico_multicore
+        hardware_timer
         hardware_pio
         )
 
@@ -60,7 +60,7 @@ target_include_directories(Embarcatech_Interrupcoes PRIVATE
 # Add any user requested libraries
 target_link_libraries(Embarcatech_Interrupcoes 
         pico_stdlib
-        pico_multicore
+        hardware_timer
         hardware_pio
         )
 
