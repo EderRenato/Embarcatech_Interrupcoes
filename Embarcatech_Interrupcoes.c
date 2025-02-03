@@ -10,7 +10,7 @@
 #define BOTAO_A  5           // Pino do botão A
 #define BOTAO_B 6           // Pino do botão B
 const uint TEMPO_PISCA = 100;     // Tempo em que o led vermelho deve piscar
-const uint DEBOUNCE_DELAY = 50;   // Tempo de debounce para os botões
+const uint DEBOUNCE_DELAY = 100;   // Tempo de debounce para os botões
 
 static volatile uint a = 1;
 static volatile uint32_t last_time = 0;
